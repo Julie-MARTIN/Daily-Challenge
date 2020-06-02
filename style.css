@@ -1,26 +1,43 @@
 /* style.css */
 body{
-  background: rgb(245,245,245);
-  color: green;
+  background: white;
+  color: midnightblue;
   font-size: 25px;
-  font-family: Helvetica;
+  font-family: Roboto;
+}
+h3 {
+  font-family: Roboto;
+  color: darkslateblue;
+  font-weight: bold;
+  font-size: 40px;
 }
 h1{
   font-family: Courier;
-  color: red;
+  color: steelblue;
   font-weight: lighter;
-  font-size: 10px;
+  font-size: 20px;
 }
 h2 {
-  font-family: Courier;
-  color: pink;
+  font-family: Roboto;
+  color: black;
   font-weight: lighter;
-  font-size: 8px;
+  font-size: 17px;
+}
+h4 {
+  font-family: Roboto;
+  color: gray;
+  font-weight: lighter;
+  font-size: 13px;
 }
 a {
-  color: yellow;
+  color: steelblue;
 }
 a:hover {
   text-decoration: none;
-  color: purple;
+  color: red;
+}
+
+#baseline p {
+  font-weight: bold;
+  color: darkslateblue;
 }
