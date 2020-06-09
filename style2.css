@@ -1,7 +1,7 @@
 body{
-  background: #fff;
-  color: #000; 
-  font-size: 16px;
+  background: white;
+  color: midnightblue; 
+  font-size: 13px;
   font-family: 'Source Sans Pro', sans-serif;
   margin:0;
 }
@@ -12,6 +12,24 @@ nav{
   font-family: 'Source Sans Pro', sans-serif;
 } 
 
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
+#logo{
+  color: darkslateblue;
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  float: left;
+  margin-left: 50px;
+}
+
 h1{
   font-family: 'Roboto', sans-serif;
   color:  #41A3C0; 
@@ -21,13 +39,13 @@ h1{
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  color: #3b4563;
+  color: #darkslateblue;
   font-weight: lighter;
   font-size: 1.5em;
 }
 
 p{
-  color: #8e9bac;
+  color: black;
 }
 
 a { 
@@ -47,7 +65,7 @@ a:hover {
 
 /* Mis en forme de la baseline */
 #baseline{
-  background-color: #41A3C0;
+  background-color: #ffefd5;
   text-align: center;
   background-size: cover;
   padding: 150px;
@@ -67,16 +85,24 @@ a:hover {
   text-decoration: none;
 }
 
+#baseline a:hover {
+  position: relative;
+  top:1px;
+}
+
 .feature {
-  border:1px solid #F2F2F2;
+  border:3px solid #9370db;
   margin: 15px;
   padding: 15px 0;
   text-align: center;
   width: 400px;
-  background: #FAFAFA;
+  background: #b0c4de;
 }
 
 #apropos{
   margin:0 auto;
   width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
